@@ -81,6 +81,10 @@ cp harbor-labs/harbor/harbor.yml ~/harbor
 Execute os scrips abaixo e aguarde o Harbor inicializar:
 
 ```
+cd ~/harbor
+```
+
+```
 sudo ./prepare
 ```
 
