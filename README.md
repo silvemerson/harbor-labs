@@ -83,13 +83,14 @@ Execute os scrips abaixo e aguarde o Harbor inicializar:
 ```
 cd ~/harbor
 ```
-
+Prepare o ambiente:
 ```
 sudo ./prepare
 ```
+Execute a criação do ambiente com o examinador Trivy:
 
 ```
-sudo ./install.sh
+sudo ./install.sh --with-trivy
 ```
 
 Mapeie no seu /etc/hosts a seguinte linha:
