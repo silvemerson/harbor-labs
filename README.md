@@ -10,6 +10,7 @@
 ## 1. Configurações iniciais
 
 
+
 Faça o Download do Harbor:
 
 ```
@@ -80,11 +81,11 @@ cp harbor-labs/harbor/harbor.yml ~/harbor
 Execute os scrips abaixo e aguarde o Harbor inicializar:
 
 ```
-./prepare
+sudo ./prepare
 ```
 
 ```
-./install.sh
+sudo ./install.sh
 ```
 
 Mapeie no seu /etc/hosts a seguinte linha:
@@ -98,4 +99,5 @@ Por fim, acesse o Harbor pelo navegador:
 https://registry.4labs.example
 
 usuário: admin
+
 senha: 4linux
